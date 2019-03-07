@@ -1,0 +1,27 @@
+@import "~bootstrap/scss/bootstrap";
+
+/* Global
+----------------------------*/
+
+body {
+  margin: 2rem;
+}
+
+h1 {
+  font-weight: bold;
+  color: white;
+  margin-bottom: 2rem;
+}
+.static {
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: #6b3ba9;
+}
+
+.list-group-item {
+  background-color: #ffffca;
+}
+
+.repo_header {
+  color: #6b3ba9;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Github repositories</title>
+
+    <link rel="stylesheet" href="dist/style.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="static">
+        <h1>Github user repository list</h1>
+        <form class="form-inline" id="username-form">
+          <label class="sr-only" for="username">Name</label>
+          <input type="text" class="form-control mb-2 mr-sm-2" id="username" placeholder="Github username" />
+          <button type="submit" class="btn btn-light mb-2">Submit</button>
+        </form>
+      </div>
+
+      <div id="repositories"></div>
+    </div>
+
+    <script src="dist/main.bundle.js"></script>
+  </body>
+</html>
